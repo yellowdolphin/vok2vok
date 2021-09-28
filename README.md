@@ -7,3 +7,5 @@ vok2vok is an open command-line xml-to-sqlite3 converter for vocabulary files in
 
 As of now, it will convert the specified `.vok2` files into CSV files or `.vok5` files supported by Teachmaster 5 (version alpha 16). 
 It will search for `.kk` files to preserve the box associated with each vocabulary item.
+
+If no files are specified, vok2vok will convert all `.vok2` files in the current directory.
